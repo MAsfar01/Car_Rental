@@ -1,0 +1,124 @@
+.tophead
+    {
+        width: 100vw;
+        height: 9vh;
+        background-color: #dfe6e9;
+        box-shadow: 10px 0 7px #636e72;
+    }
+    .tophead i
+    {
+        font-size: 18pt;
+        cursor: pointer;
+        color: #57606f;
+        margin-left: 20px;
+    }
+    .tophead .logo
+    {
+        color: #40739e;/*#0a3d62;*/
+        font-size: 23pt;
+        font-weight: bold;
+        font-family: Edwardian Script ITC;
+        /*font-style: italic;*/
+        text-decoration: none;
+        margin-left: 6px;
+    }
+    
+    /* class="container" */
+    .tophead .container
+    {
+        /*margin-top: -39px;*/
+        margin-right: 10px;
+        margin-top: -32px;
+    }
+    
+    /* class="profile_icon" */
+    .profile_icon c
+    {
+        font-size: 13pt;
+        font-weight: bold;
+        color: #57606f;
+    }
+    .profile_icon i
+    {
+        color: #57606f;
+        font-size: 14pt;
+        margin-right: 1px
+    }
+    .profile_icon
+    {
+        float: right;
+        /*width: 42px;
+        height: 40px;
+        border-radius: 100px;	
+        border: 1px solid #636e72;*/
+    
+    }
+    .profile_icon:hover
+    {
+        cursor: pointer;
+    }
+    
+    /* class="popup" */
+    .popup
+    {
+        display: none;
+        position: absolute;
+        right: 30px;
+        top: 50px;
+        ;
+    }
+    .modal_content
+    {
+        
+        background-color: #dfe6e9;
+        box-shadow: 3px 3px 5px #636e72;
+        /*border: 2px solid black;*/
+        border-radius: 3px;
+        width: 230px;
+        height: 168px;
+        margin-top: 3px;
+    }
+    .profile .admin
+    {
+        color: #0a3d62;
+        font-size: 18pt;
+        font-family: ALEGREYA;
+    }
+    .name
+    {
+        color: #353b48;
+        font-size: 14pt;
+        font-family: ALEGREYA;
+    }
+    .profile .email
+    {
+        color: #353b48;
+        font-size: 10.7pt;
+    }
+    .modal_content ul
+    {
+        margin-top: -4px;
+    }
+    .modal_content ul li
+    {
+        margin: 0px;
+        height: 36px;
+        line-height: -20px;
+    }
+    .modal_content ul li:hover
+    {
+        background-color: #c8d6e5;
+    }
+    .modal_content ul li a
+    {
+        text-decoration: none;
+        color: #353b48;
+        font-size: 10.5pt;
+        margin-left: 2px;
+    }
+    .modal_content i
+    {
+        font-size: 12.5pt;
+        color: #353b48;
+        margin-top: 10px;
+    }

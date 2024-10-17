@@ -1,0 +1,84 @@
+
+/*..........page content..........*/
+/* class="page-content" */
+/* class="container-fluid" */
+.page-content h3
+{
+	color: #0a3d62;
+	font-family: ALEGREYA;
+}
+.page-content .line
+{
+	height: 1px;
+	background-color: #dfe6e9;
+	width: 100% !important;
+}
+/* class="container" */
+.container label
+{
+	font-size: 13pt;
+	/*font-weight: bold;*/
+	font-family: ALEGREYA;
+	margin-top: 5px;
+}
+.container input
+{
+	height: 45px;
+}
+#error_msg
+{
+	color: #e74c3c;
+	font-size: 11pt;
+	margin-top: 2px;
+	margin_bottom: 14px !important;
+}
+.container button
+{
+	width: 57px;
+	height: 32px;
+	outline: none;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 10.5pt;
+}
+.container #btn_save
+{
+	background-color: #40739e;
+    border-color: #40739e;  
+    /*margin-right: 40px;
+	/*font-size: 12pt;*/
+}
+.container #btn_reset_form
+{
+	background-color: #576574;
+    border-color: #576574;
+    margin-right: 40px;
+	/*font-size: 12pt;*/
+}
+.error
+{
+    color: #e74c3c;
+    font-size: 11.5pt !important;
+    margin-bottom: 0;
+}
+input[type="text"]
+{
+	color: #636e72;
+}
+input[type="email"]
+{
+	color: #636e72;
+}
+input[type="password"]
+{
+	color: #636e72;
+}
+input[type="file"]
+{
+	color: #636e72;
+}
+
+
+
+
+/*...............media query...............*/

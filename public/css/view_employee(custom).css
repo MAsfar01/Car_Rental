@@ -1,0 +1,223 @@
+
+/* class="page-content" */
+/* class="container-fluid" */
+/* class="container" */
+.page-content h3
+{
+	color: #0a3d62;
+	font-family: ALEGREYA;
+	margin-bottom: 12px;
+	/*font-style: italic;*/
+}
+.table-responsive
+{
+	max-height: 31em;
+}
+.table thead th
+{
+	position: sticky;
+	top: 0;
+	/*z-index: 5;*/
+	background-color: #0a3d62;
+	color: #fff;
+	font-size: 13pt;
+	/*font-style: italic;*/
+}
+.table #no_col
+{
+	width: 5vw;
+}
+.table #name_col
+{
+	width: 15vw;
+}
+.table #cnic_col
+{
+	width: 15vw;
+}
+.table #contact_col
+{
+	width: 18vw;
+}
+.table #address_col
+{
+	width: 20vw;
+}
+.table #email_col
+{
+	width: 18vw;
+}
+.table .password_col
+{
+	width: 9vw;
+}
+.table #action_col
+{
+	width: 9vw;
+}
+.table button
+{
+	width: 28px;
+	height: 25px;
+	line-height: 15px;
+	outline: none;
+	border-radius: 3px;
+	color: #fff;
+}
+.table #btn_edit
+{
+	background-color: #40739e;
+	border-color: #40739e;
+	/*margin-right: 1px;*/
+}
+.table #btn_edit i
+{
+	font-size: 11.5pt;
+	margin-top: -1px;
+}
+.table #btn_delete
+{
+	background-color: #ee5253;
+	border-color: #ee5253; /*#ff3838;*/
+}
+.table #btn_delete i
+{
+	font-size: 10pt;
+	margin-top: -1px;
+}
+
+
+/*..........popup modals..........*/
+/*.....Common part start.....*/
+/* class="modal" */
+.modal-header h4
+{
+	/*color: #fff;*/
+	color: #0a3d62;
+	font-family: ALEGREYA;
+}
+.modal-body button
+{
+	width: 55px;
+	height: 30px;
+	outline: none;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 10.5pt;
+	/*margin-top: 10px;*/
+}
+.modal-body #btn_close
+{
+	background-color: #7f8c8d;
+	border-color: #7f8c8d;
+}
+.modal-body #btn_del
+{
+	background-color: #ee5253;
+	border-color: #ee5253; /*#ff3838;*/
+	color: #fff;
+}
+.modal-body i
+{
+	font-size: 14.5pt;
+	color: #EA2027;
+}
+#modal_delete_text
+{
+	font-size: 12.5pt;
+}
+.modal-body #btn_save
+{
+	background-color: #40739e;
+	border-color: #40739e;
+	margin-right: 1px;
+}
+.modal-body input
+{
+	height: 40px;
+}
+.modal-lg
+{
+	/*width: 660px;*/
+}
+.error
+{
+    color: #e74c3c;
+    font-size: 10.5pt;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+input[type="text"],
+input[type="password"]
+{
+    color: #636e72;
+}
+/*.....Common part end.....*/
+
+
+
+/*..........popup modals..........*/
+/*.....Common part start.....*/
+/* class="modal" 
+/*.modal-header h4
+{
+	color: #0a3d62;
+	font-family: ALEGREYA;
+}
+.modal-body button
+{
+	height: 34px;
+	outline: none;
+	border-radius: 3px;
+}
+.modal-body #btn_close
+{
+	width: 65px;
+	background-color: #7f8c8d;
+	border-color: #7f8c8d;
+	color: #fff;
+}
+
+/*.....Common part end.....*/
+
+
+/* delete modal */
+/*#modal_delete_text
+{
+	font-size: 13pt;
+}
+.modal-body #btn_del
+{
+	width: 65px;
+	background-color: #ee5253;
+	border-color: #ee5253; /*#ff3838;*/
+	color: #fff;
+}
+/*.modal-body i
+{
+	font-size: 14.5pt;
+	color: #EA2027;
+}
+
+
+/* edit modal */
+/*.modal-body #btn_savechanges
+{
+	width: 115px;
+	background-color: #40739e;
+	border-color: #40739e;
+	color: #fff;
+}
+.error
+{
+    color: #e74c3c;
+    font-size: 10.5pt;
+}
+/*.error:after
+{
+	content: "";
+}*/
+/*input[type="text"]
+{
+    color: #636e72;
+}

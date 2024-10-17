@@ -1,0 +1,154 @@
+/*....................common part start....................*/
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*...............class="wrapper"...............*/
+.wrapper
+{
+	margin-top: 9vh;
+}
+/*...............vertical navbar...............*/
+.vertical-nav
+{
+	width: 15rem;
+	height: 100vh;
+	background-color: #dfe6e9; /*#4b6584*/
+	position: fixed;
+	top: 9.3vh;
+	left: 0;
+	box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+	transition: all 0.5s;
+}
+#sidebar.active
+{
+	margin-left: -15rem;
+}
+.vertical_nav_heading
+{
+	color: #0a3d62;
+	font-size: 14.5pt;
+	font-weight: bold;
+}
+.vertical-nav-menu
+{
+	margin-top: 4.2vh;
+}
+.vertical-nav-menu ul li
+{
+	/*background-color: #c8d6e5; /*#dcdde1;*/
+    height: 48px;
+    line-height: 29px;
+    /*border-radius: 3px;*/
+	margin: 0px;               /*leaving space b/w list-elements*/   
+	border-bottom: 1px solid rgba(0,0,0,0.09);
+}
+.vertical-nav-menu ul li:hover
+{
+	background-color: #0a3d62; /*#4b6584; /*#535c68*/
+	/*background-color: #c8d6e5;*/
+}
+.vertical-nav-menu ul li a
+{
+	color: #57606f;
+	font-size: 13pt;
+	margin-left: 10px;
+}
+.vertical-nav-menu ul li a:hover
+{
+	color: #fff;
+}
+.vertical-nav-menu .active
+{
+	background-color: #0a3d62;
+	color: #fff;
+	/*font-weight: bold;*/
+}
+
+
+/*...............page content...............*/
+.page-content
+{
+	width: calc(100% - 15rem);
+	margin-left: 15rem;
+	transition: all 0.5s;
+	margin-top: 9.1vh;
+}
+#content.active
+{   
+	width: 100%;
+	margin: 0;
+}
+.page-content .container-fluid
+{
+	/*background-color: #dfe6e9;*/
+	margin-top: 15px;
+}
+
+
+/*...............media query...............*/
+/* side nav */
+@media(max-width:768px)
+{
+	#sidebar
+	{
+		margin-left: -15rem;
+	}
+	#sidebar.active
+	{
+		margin-left: 0;
+	}
+	#content
+	{
+		width: 100%;
+		margin: 0;
+	}
+	#content.active
+	{
+		margin-left: 15rem;
+		width: calc(100% - 15rem);
+	}
+}
+
+/* id="modal_admin_profile" */
+@media(max-width:768px)
+{
+	.modal_content
+	{
+		width: 210px;
+	    height: 300px;
+	}
+}
+
+/*....................common part end....................*/
+/* Custom DataTable Styling */
+.dataTables_wrapper .dataTables_filter {
+    float: right; /* Align the search box to the right */
+    text-align: right; /* Ensure the text inside is aligned right */
+    margin-bottom: 10px; /* Adjust the margin if needed */
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    width: auto; /* Adjust the width of the search input */
+    margin-left: 10px; /* Space between the label and input */
+    padding: 6px 12px; /* Padding inside the input */
+    border-radius: 4px; /* Rounded corners */
+    border: 1px solid #ddd; /* Border styling */
+}
+
+.dataTables_wrapper .dataTables_length {
+    float: left; /* Align the length dropdown to the left */
+    margin-bottom: 10px; /* Adjust the margin if needed */
+}
+
+.dataTables_wrapper .dataTables_filter label {
+    font-weight: normal; /* Make the label text normal */
+    font-size: 14px; /* Adjust the font size */
+}
+
+.dataTables_wrapper .dataTables_filter label::before {
+    content: "🔍"; /* Add a search icon before the label */
+    margin-right: 5px; /* Space between the icon and label */
+}
