@@ -87,7 +87,7 @@ class carController extends Controller
         return redirect()->route('view_car');
     }
     
-
+// here we added the new car Function in this laraval
 public function destroy(Request $request)
 {
     $data = $request->validate([
